@@ -11,10 +11,11 @@
         <p class="mt-3 text-lg">
           Aqui você consgue preencher seu mapa DNP com o Mnemônico de outro arquivo CSV,
           útil caso esteja realizando um re-mapeamento ou o mesmo mapa mas com protocolo diferente.
+          Validar os campos 16_M e 16_U da planilha gerada
         </p>
       </section>
 
-      <section class="border-[1px] border-gray-600 p-4 rounded">
+      <section class="border-[1px] border-gray-600 p-4 mt-3 rounded">
         <span v-if="!fileGenerated.filename">Nenhum arquivo gerado :(</span>
         
         <button
